@@ -44,7 +44,7 @@ public class CSVSalter {
 	
 	public static void main(String[] args) throws IOException {
 		
-		csvSalter("SimpleFunction.csv", 5);
+		csvSalter("SimpleFunction.csv", 10);
 
 	}
 
