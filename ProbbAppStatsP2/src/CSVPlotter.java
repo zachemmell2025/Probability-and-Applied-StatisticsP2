@@ -27,7 +27,7 @@ public class CSVPlotter {
 	}
 	
 	public static File csvOutputFile(ArrayList<String> list) throws IOException {
-		File csv = new File("D://SimpleFunction.csv");
+		File csv = new File("SimpleFunction.csv");
 		FileWriter fw = new FileWriter(csv);
 		BufferedWriter bw = new BufferedWriter(fw);
 		for(int i = 0; i < list.size(); i++) {
@@ -39,6 +39,6 @@ public class CSVPlotter {
 	}
 	
 	public static void main(String []args) throws IOException {
-		csvOutputFile(csvFunction(-100, 100, 2, 100));
+		csvOutputFile(csvFunction(-10, 10, 2, 10));
 	}
 }
